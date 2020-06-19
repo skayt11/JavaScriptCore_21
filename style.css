@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #130f40;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#rozklad {
+    width: 1100px;
+    height: 500px;
+}
+
+table {
+    width: 100%;
+}
+
+#game {
+    width: 1100px;
+    height: 400px;
+}
+
+#one {
+    position: absolute;
+    left: 60px;
+    top: 180px;
+    width: 148px;
+    height: 117px;
+    float: left;
+    background: url(./img/1.png);
+    background-size: cover;
+    border: none;
+}
+
+#two {
+    position: absolute;
+    left: 40px;
+    top: 160px;
+    width: 191px;
+    height: 116px;
+    float: left;
+    background: url(./img/2.png);
+    background-size: cover;
+    border: none;
+}
+
+#three {
+    position: absolute;
+    left: 60px;
+    top: 140px;
+    width: 149px;
+    height: 151px;
+    float: left;
+    background: url(./img/3.png);
+    background-size: cover;
+    border: none;
+}
+
+#four {
+    position: absolute;
+    left: 10px;
+    top: 130px;
+    width: 147px;
+    height: 116px;
+    float: left;
+    background: url(./img/4.png);
+    background-size: cover;
+    border: none;
+}
+
+#five {
+    position: absolute;
+    left: 10px;
+    top: 130px;
+    width: 192px;
+    height: 152px;
+    float: left;
+    background: url(./img/5.png);
+    background-size: cover;
+    border: none;
+}
+
+#six {
+    position: absolute;
+    left: 30px;
+    top: 120px;
+    width: 236px;
+    height: 152px;
+    float: left;
+    background: url(./img/6.png);
+    background-size: cover;
+    border: none;
+}
+
+#table {
+    width: 442px;
+    height: 232px;
+    float: right;
+    border: 5px solid #00658d;
+    background-color: #002707;
+}
+
+.foo {
+    background-color: aqua;
+}
+
+#zavd-2 h2 {
+    color: #00ffff;
+}
+
+#zavd-2 h3 {
+    color: #7fff00;
+}

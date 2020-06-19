@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/vader/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <title>Lesson 21 | JS Core</title>
+</head>
+
+<body>
+    <div id="tabs-zavd">
+        <ul>
+            <li><a href="#zavd-1">Студентський розклад</a></li>
+            <li><a href="#zavd-2">Гра «Puzzle»</a></li>
+        </ul>
+        <div id="zavd-1">
+            <h2>Розклад навчальних занять студентів групи КІТ-Н119б курсу 5 у Весняному семестрі</h2>
+            <div id="rozklad">
+                <h3>ПОНЕДІЛОК</h3>
+                <div>
+                    <table>
+                        <tr>
+                            <th>Година</th>
+                            <th>Предмет</th>
+                            <th>Аудиторія</th>
+                            <th>Вид заняття</th>
+                        </tr>
+                        <tr>
+                            <td>08.30 — 10.05</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>10.25 — 12.00</td>
+                            <td>Програмування для глобальних мереж</td>
+                            <td>308 ВК</td>
+                            <td>Лабораторна</td>
+                        </tr>
+                        <tr>
+                            <td>12.35 — 14.10</td>
+                            <td>Основи нейрокомп'ютингу</td>
+                            <td>302 ВК</td>
+                            <td>Лекція</td>
+                        </tr>
+                        <tr>
+                            <td>14.30 — 16.05</td>
+                            <td>Програмування для глобальних мереж</td>
+                            <td>302 ВК</td>
+                            <td>Лекція</td>
+                        </tr>
+                        <tr>
+                            <td>16.25 — 18.00</td>
+                            <td>Програмування системно-орієнтованих компонент</td>
+                            <td>22 ВК</td>
+                            <td>Лабораторна</td>
+                        </tr>
+                        <tr>
+                            <td>18.10 — 19.45</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+                <h3>ВІВТОРОК</h3>
+                <div>
+                    <table>
+                        <tr>
+                            <th>Година</th>
+                            <th>Предмет</th>
+                            <th>Аудиторія</th>
+                            <th>Вид заняття</th>
+                        </tr>
+                        <tr>
+                            <td>08.30 — 10.05</td>
+                            <td>Програмування системно-орієнтованих компонент</td>
+                            <td>302 ВК</td>
+                            <td>Лекція</td>
+                        </tr>
+                        <tr>
+                            <td>10.25 — 12.00</td>
+                            <td>Проектування програмного забезпечення мікроконтролерних пристроїв</td>
+                            <td>302 ВК</td>
+                            <td>Лекція</td>
+                        </tr>
+                        <tr>
+                            <td>12.35 — 14.10</td>
+                            <td>Програмування системно-орієнтованих компонент</td>
+                            <td>25б ВК</td>
+                            <td>Практика</td>
+                        </tr>
+                        <tr>
+                            <td>14.30 — 16.05</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>16.25 — 18.00</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>18.10 — 19.45</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+                <h3>СЕРЕДА</h3>
+                <div>
+                    <table>
+                        <tr>
+                            <th>Година</th>
+                            <th>Предмет</th>
+                            <th>Аудиторія</th>
+                            <th>Вид заняття</th>
+                        </tr>
+                        <tr>
+                            <td>08.30 — 10.05</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>10.25 — 12.00</td>
+                            <td>Оптимізація процесів в мультисервісних системах та мережах</td>
+                            <td>19 ВК</td>
+                            <td>Лекція</td>
+                        </tr>
+                        <tr>
+                            <td>12.35 — 14.10</td>
+                            <td>Основи наукових досліджень</td>
+                            <td>25а ВК</td>
+                            <td>Практика</td>
+                        </tr>
+                        <tr>
+                            <td>14.30 — 16.05</td>
+                            <td>Оптимізація процесів в мультисервісних системах та мережах</td>
+                            <td>302 ВК</td>
+                            <td>Лекція</td>
+                        </tr>
+                        <tr>
+                            <td>16.25 — 18.00</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>18.10 — 19.45</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+                <h3>ЧЕТВЕР</h3>
+                <div>
+                    <table>
+                        <tr>
+                            <th>Година</th>
+                            <th>Предмет</th>
+                            <th>Аудиторія</th>
+                            <th>Вид заняття</th>
+                        </tr>
+                        <tr>
+                            <td>08.30 — 10.05</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>10.25 — 12.00</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>12.35 — 14.10</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>14.30 — 16.05</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>16.25 — 18.00</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>18.10 — 19.45</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+                <h3>П`ЯТНИЦЯ</h3>
+                <div>
+                    <table>
+                        <tr>
+                            <th>Година</th>
+                            <th>Предмет</th>
+                            <th>Аудиторія</th>
+                            <th>Вид заняття</th>
+                        </tr>
+                        <tr>
+                            <td>08.30 — 10.05</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>10.25 — 12.00</td>
+                            <td>Оптимізація процесів в мультисервісних системах та мережах</td>
+                            <td>22 ВК</td>
+                            <td>Лабораторна</td>
+                        </tr>
+                        <tr>
+                            <td>12.35 — 14.10</td>
+                            <td>Оптимізація процесів в мультисервісних системах та мережах</td>
+                            <td>302 ВК</td>
+                            <td>Практика</td>
+                        </tr>
+                        <tr>
+                            <td>14.30 — 16.05</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>16.25 — 18.00</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>18.10 — 19.45</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div id="zavd-2">
+            <h2>Складіть картинку за найменьшу кількість спроб.</h2>
+            <h3>Кількість: <span id="count"></span>
+            </h3>
+            <div id="game">
+                <div id="one" class="ui-widget-content"></div>
+                <div id="two" class="ui-widget-content"></div>
+                <div id="three" class="ui-widget-content"></div>
+                <div id="four" class="ui-widget-content"></div>
+                <div id="five" class="ui-widget-content"></div>
+                <div id="six" class="ui-widget-content"></div>
+                <div id="table"></div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
